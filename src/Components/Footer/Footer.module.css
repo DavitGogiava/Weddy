@@ -1,0 +1,54 @@
+.footerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background-color: #514631;
+    flex-direction: column;
+}
+
+.footerTextWrapper{
+    position: relative;
+    color: #EAEAE2;
+}
+
+.footerText{
+    font-size: 33vh;
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    line-height: 0.5;
+    font-family: Times;
+
+}
+.footerTextTop{
+    position: absolute;
+    top: -42%;
+    left: 0;
+    font-family: CourierPrime;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+}
+.footerTextMiddle{
+    position: absolute;
+    font-size: CourierPrime;
+    font-family: CourierPrime;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    left: 48.5%;
+    bottom: 40%;
+    font-size: 3.5vh;
+}
+.footerTextBottom{
+    position: absolute;
+    right: -9%;
+    bottom: -3vh;
+    font-family: CourierPrime;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}

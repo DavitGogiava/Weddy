@@ -1,42 +1,40 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+body{
   margin: 0;
+  padding: 0;
+  user-select: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #d8cdc0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+::-webkit-scrollbar {
+  z-index: 9999;
+  width: 6px;
+  height: 6px;
+  background-color: #d8cdc0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+@font-face {
+  font-family: "Soliden";
+  src: url("SolidenTrial-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Loverica";
+  src: url("Loverica-Regular.ttf");
+}
+@font-face {
+  font-family: "Times";
+  src: url("times.ttf");
+}
+
+@font-face {
+  font-family: "CourierPrime";
+  src: url("Courier\ Prime.ttf");
 }

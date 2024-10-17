@@ -1,6 +1,6 @@
-import Footer from "@/Components/Footer";
+import Footer from "@/Components/Footer/Footer";
 import "./globals.css";
-import Header from "@/Components/Header";
+import Header from "@/Components/Header/Header";
 
 export const metadata = {
   metadataBase: new URL("http://localhost:3000"),
